@@ -1,0 +1,108 @@
+.contact-section {
+  background-image: url('fundoFAQ.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Branco semi-transparente para sobrepor a imagem */
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.contact-header,
+.contact-body {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-title {
+  color: rgba(0, 113, 51);
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.contact-header {
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-title {
+  color: rgba(0, 113, 51); /* Ajuste para garantir legibilidade sobre o fundo */
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.contact-form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  width: 100%; /* Garantir que os elementos dentro do grupo ocupem 100% da largura */
+}
+
+.contact-form-label {
+  font-weight: bold;
+  color: rgba(0, 113, 51);
+  width: 100%;
+  font-size: 14px;
+}
+
+.contact-form-control {
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: 1px solid #dddddd;
+  margin-bottom: 0.75rem;
+  width: 100%; /* Garantir que os inputs ocupem 100% da largura disponível */
+  box-sizing: border-box; /* Garantir que o padding não afete a largura */
+}
+
+.contact-form-control-half {
+  flex: 1;
+  min-width: calc(50% - 0.75rem); /* Ajuste para garantir que os elementos ocupem metade da largura com o gap */
+}
+
+.contact-form-control-full {
+  width: 100%; /* Manter largura total */
+  
+}
+
+.contact-btn-primary {
+  background-color: #388e3c;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 1rem auto 0;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn-primary:hover {
+  background-color: #2e7d32;
+}

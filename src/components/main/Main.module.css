@@ -1,0 +1,11 @@
+main {
+    margin: auto;
+    
+}
+
+
+@media(max-width: 1200px){
+    main {
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #fff;
+}
+
+.quem-somos-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  height:  900px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1200px;
+  gap: 20px;
+}
+
+.texto-principal {
+  flex: 1;
+  color: rgba(0, 0, 0, 1);
+  font-size: 21px;
+  line-height: 120%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  height: 350px;
+}
+p {
+  font-size: 21px;
+}
+
+.imagem-container {
+  display: flex;
+  align-items: center;
+}
+
+.imagem-precision {
+  position: relative;
+  width: 350px;
+  height: 100%;
+}
