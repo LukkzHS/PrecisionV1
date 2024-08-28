@@ -1,7 +1,7 @@
 import React from 'react';
 import type {Meta, StoryObj} from '@storybook/react';
 
-import {ContactModal} from './ContactModal';
+import ContactModal from './ContactModal';
 
 const meta: Meta<typeof ContactModal> = {
   component: ContactModal,
