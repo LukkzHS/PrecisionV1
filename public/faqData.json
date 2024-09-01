@@ -1,14 +1,22 @@
 [
   {
-    "question": "Como faço para utilizar o sistema?",
-    "answer": "Para utilizar o sistema, você deve seguir as instruções fornecidas no manual do usuário."
+    "question": "Qual a vantagem de instalar o Dosador Precision na minha plantadeira?",
+    "answer": "A dosagem do adubo/fertilizante vai ser uniforme, sem variações que provocam falhas na linha de plantio, isso por conta do sistema de rosca sem-fim e da rampa de transbordo que mantém o fluxo de caída do adubo constante."
   },
   {
-    "question": "Onde posso encontrar suporte?",
-    "answer": "Você pode encontrar suporte acessando a seção de ajuda em nosso site ou entrando em contato conosco."
+    "question": "Qual as roscas sem-fim disponíveis e qual a diferença  entre elas?",
+    "answer": "Temos as roscas de  '1' e '2' polegadas, a de '1' para baixas vazões e o de '2' para altas vazões de dosagens de adubos/fertilizantes."
   },
   {
-    "question": "Onde posso encontrar suporte?",
-    "answer": "Você pode encontrar suporte acessando a seção de ajuda em nosso site ou entrando em contato conosco."
+    "question": "Serve para qual plantadeira?",
+    "answer": "Para praticamente todas. Temos um dosador específico para a plantadeira Jumil."
+  },
+  {
+    "question": "O dosador é fabricado em qual material?",
+    "answer": "Em nylon industrial."
+  },
+  {
+    "question": "Sou revenda e gostaria de comprar no atacado, vendem?",
+    "answer": "Sim, temos preços  diferenciados para revendas, chama a gente no whatsapp."
   }
 ]
