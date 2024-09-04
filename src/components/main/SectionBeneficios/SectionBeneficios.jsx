@@ -5,7 +5,7 @@ import TituloSubtitulo from "../Titulo_Subtitulo/Titulo_Subtitulo";
 function SectionBeneficios() {
 
     return (
-        <section className={css.Section}>
+        <section className={css.SectionBeneficios}>
             <TituloSubtitulo titulo="Características e Benefícios"
                 subtitulo="Explorando as vantagens do Precision: detalhes que fazem a diferença"
             />

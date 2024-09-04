@@ -20,7 +20,7 @@ function Nav() {
             </ul>
             <div className={styles.container}>
                 <ul>
-                    <li><a href="#"><img src="src/assets/img/svg-Rei_dos_Alimentadores-mini.jpg" alt="" /></a></li>
+                    <li><a href="#"><img src="precisionLogo.jpg" alt="" /></a></li>
                     <li className={styles.hideOnMobile}><a href="#">Sobre nós</a></li>
                     <li className={styles.hideOnMobile}><a href="#">Produtos</a></li>
                     <li className={styles.hideOnMobile}><a href="#">Contatos</a></li>
