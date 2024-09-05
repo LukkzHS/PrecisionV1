@@ -19,6 +19,7 @@ body {
   background-color: rgba(255, 255, 255, 1);
 }
 
+
 .conteudo {
   display: flex;
   flex-direction: row;
@@ -31,15 +32,18 @@ body {
   flex: 1;
   color: rgba(0, 0, 0, 1);
   font-size: 21px;
-  line-height: 120%;
+  /* line-height: 120%; */
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   height: 350px;
   text-align: left; /* Mantém alinhamento à esquerda para desktop */
+  margin-bottom: 100px;
 }
+
 
 p {
   font-size: 21px;
+  margin-bottom: 20px; /* Adiciona espaçamento entre os parágrafos */
 }
 
 .imagem-container {
@@ -51,6 +55,7 @@ p {
   position: relative;
   width: 350px;
   height: 100%;
+  margin-bottom: 30px;
 }
 
 /* Ajustes para telas menores (mobile e tablets) */
@@ -77,4 +82,7 @@ p {
     max-width: 350px;
     height: auto;
   }
+
+
+  
 }

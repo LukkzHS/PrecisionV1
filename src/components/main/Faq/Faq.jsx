@@ -1,15 +1,15 @@
 // src/FAQ/FAQ.jsx
 import React, { useState, useEffect } from 'react';
-import './FAQ.css'; // Import CSS
+import './Faq.css'; // Import CSS
 import TituloSubtitulo from '../Titulo_Subtitulo/Titulo_Subtitulo';
 
 const FAQ = () => {
-  const [faqprova, setFaqprova] = useState([]);
+  const [faqData, setFaqData] = useState([]);
 
   useEffect(() => {
-    fetch('faqprova.json')
+    fetch('faqData.json') // Nome correto do arquivo JSON
       .then((response) => response.json())
-      .then((data) => setFaqprova(data.faqs)) // Acessando a chave 'faqs'
+      .then((data) => setFaqData(data)) // Acessando diretamente o array
       .catch((error) => console.error('Erro ao carregar o JSON:', error));
   }, []);
 
@@ -17,16 +17,16 @@ const FAQ = () => {
     <section className="faq-section">
       <TituloSubtitulo titulo="Perguntas frequentes" subtitulo="" />
       <div className="faq-container">
-        {faqprova.map((item, index) => (
+        {faqData.map((item, index) => (
           <div className="faq-item" key={index}>
             <div
               className="faq-question"
               onClick={() => document.getElementById(`faq-answer-${index}`)?.classList.toggle('show')}
             >
-              {item.pergunta} {/* Atualizado para 'pergunta' */}
+              {item.question} {/* Atualizado para 'question' */}
             </div>
             <div className="faq-answer" id={`faq-answer-${index}`}>
-              {item.resposta} {/* Atualizado para 'resposta' */}
+              {item.answer} {/* Atualizado para 'answer' */}
             </div>
           </div>
         ))}

@@ -27,6 +27,15 @@ body {
   width: 100%;
 }
 
+.section-content h2 {
+  font-size: 24px; 
+}
+
+.section-content p {
+  font-size: 16px; 
+}
+
+
 .section-title {
   color: rgba(0, 113, 51, 1);
   font-size: 28px;
@@ -51,6 +60,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-align: center;
+  margin-top: 20px;
 }
 
 .image-with-details {
@@ -63,8 +73,8 @@ body {
 .product-video {
   width: 100%;
   height: 300px;
-  margin-top: 20px;
   border-radius: 10px; 
+  margin-bottom: 40px;
 }
 
 .details {
@@ -114,6 +124,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-align: center;
+  margin-top: 20px;
 }
 
 /* Media Queries para telas maiores */
@@ -163,22 +174,35 @@ body {
     flex-direction: row;
   }
 
-
   .product-video {
     width: 1400px;
     height: 400px;
+    margin-top: 60px;
   }
 
   .details-text {
+    margin-top: 20px;
     font-size: 20px;
-    line-height: 205%;
+    line-height: 150%;
   }
 
   .cta-button {
-    height: 73px;
+    height: 73px;;
   }
 
   .button-text {
     font-size: 25px;
+    margin-top: 15px;
+  }
+
+
+  .section-content h2 {
+    font-size: 38px; 
+  }
+
+  .section-content p {
+    font-size: 20px; 
   }
 }
+
+
