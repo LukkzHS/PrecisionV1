@@ -7,9 +7,6 @@ const ContactModal = () => {
     name: '',
     email: '',
     phone: '',
-    city: '',
-    state: '',
-    company: '',
     message: ''
   });
 
@@ -35,6 +32,7 @@ const ContactModal = () => {
       email: formData.email,
       message: formData.message
     };
+
     emailjs.send('service_u3c9sqg', 'template_n2veh2t', templateParams, 'uMLVlXf3_32TNEWbI')
       .then((result) => {
         console.log(result.text);
@@ -43,9 +41,6 @@ const ContactModal = () => {
           name: '',
           email: '',
           phone: '',
-          city: '',
-          state: '',
-          company: '',
           message: ''
         });
       }, (error) => {
@@ -84,6 +79,7 @@ const ContactModal = () => {
               onChange={handleInputChange}
               required
             />
+
             <label htmlFor="phone" className="contact-form-label">Telefone</label>
             <input
               type="tel"
@@ -91,42 +87,6 @@ const ContactModal = () => {
               id="phone"
               name="phone"
               value={formData.phone}
-              onChange={handleInputChange}
-              required
-            />
-          </div>
-
-          <div className="contact-form-group">
-            <label htmlFor="city" className="contact-form-label">Cidade</label>
-            <input
-              type="text"
-              className="contact-form-control contact-form-control-half"
-              id="city"
-              name="city"
-              value={formData.city}
-              onChange={handleInputChange}
-              required
-            />
-            <label htmlFor="state" className="contact-form-label">Estado</label>
-            <input
-              type="text"
-              className="contact-form-control contact-form-control-half"
-              id="state"
-              name="state"
-              value={formData.state}
-              onChange={handleInputChange}
-              required
-            />
-          </div>
-
-          <div className="contact-form-group">
-            <label htmlFor="company" className="contact-form-label">Empresa</label>
-            <input
-              type="text"
-              className="contact-form-control contact-form-control-full"
-              id="company"
-              name="company"
-              value={formData.company}
               onChange={handleInputChange}
               required
             />
