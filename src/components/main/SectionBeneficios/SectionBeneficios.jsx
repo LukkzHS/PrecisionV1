@@ -1,15 +1,11 @@
-import ContentBeneficios from './ContentBeneficios/ContentBeneficios'
 import css from './SectionBeneficios.module.css'
-import TituloSubtitulo from "../Titulo_Subtitulo/Titulo_Subtitulo";
+import Container from "./Container/Container";
 
-function SectionBeneficios() {
+function SectionBeneficios(){
 
-    return (
-        <section className={css.SectionBeneficios}>
-            <TituloSubtitulo titulo="Características e Benefícios"
-                subtitulo="Explorando as vantagens do Precision: detalhes que fazem a diferença"
-            />
-            <ContentBeneficios />
+    return(
+        <section className={css.beneficios}>
+            <Container/>
         </section>
     )
 }

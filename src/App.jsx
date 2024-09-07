@@ -14,7 +14,7 @@ function App() {
     <Header/>
     <Main/>
     <Footer/>
-    <FloatingWhatsApp/>
+    <FloatingWhatsApp className='floating-whatsapp'/>
     </>
   )
 }

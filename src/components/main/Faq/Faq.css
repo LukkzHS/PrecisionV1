@@ -41,16 +41,16 @@
 
   .faq-question,
   .faq-answer {
-    font-size: 1rem;
+    font-size: 16px;
     padding: 0.75rem;
-  }
-
-  .faq-title {
-    font-size: 1.8rem;
   }
 
   .faq-item {
     margin-bottom: 0.5rem;
+  }
+
+  .faq-section h2 {
+    font-size: 24px;
   }
 }
 

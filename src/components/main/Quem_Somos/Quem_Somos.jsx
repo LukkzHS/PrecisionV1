@@ -18,7 +18,7 @@ export default function Quem_Somos() {
                 </div>
 
                 <div className="imagem-container">
-                    <img src="precision.jpeg" alt="" className="imagem-precision" />
+                    <img src="PrecisionV1/precision.jpeg" alt="" className="imagem-precision" />
                 </div>
             </div>
     );

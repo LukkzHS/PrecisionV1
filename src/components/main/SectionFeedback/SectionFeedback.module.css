@@ -1,9 +1,25 @@
-.content {
-    width: 1200px;
-    margin: auto;
+.feedback{
+    height: 900px;
+    background-color: rgba(243,243,243,1);
 }
 
-.section {
-    background-color: rgba(243, 243, 243, 1);
-    height: 900px;
+.feedback h2{
+    padding-top: 120px;
+    font-size: 36px;
+}
+
+.feedback p .subtitulo-padrao{
+    font-size: 24px;
+}
+
+@media screen and (max-width: 600px){
+    .feedback h2{
+        font-size: 24px;
+    }
+
+    .feedback p {
+        font-size: 16px;
+        margin: 10px 20px;
+    }
+    
 }
