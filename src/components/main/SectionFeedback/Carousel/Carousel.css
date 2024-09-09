@@ -1,0 +1,19 @@
+/* Estilo das setas "Previous" e "Next" */
+.slick-prev::before,
+.slick-next::before {
+    color: green;  /* Define a cor das setas como verde */
+    font-size: 24px; /* Ajuste o tamanho da seta, se necessário */
+}
+
+/* Aumenta o tamanho das bolinhas */
+.slick-dots li button:before {
+    font-size: 16px; /* Ajuste o tamanho da bolinha */
+    color: green; /* Cor da bolinha, opcional */
+}
+
+/* Muda o tamanho das bolinhas ativas (quando o slide correspondente está ativo) */
+.slick-dots li.slick-active button:before {
+    font-size: 18px; /* Tamanho da bolinha ativa */
+    color: darkgreen; /* Cor da bolinha ativa, opcional */
+}
+

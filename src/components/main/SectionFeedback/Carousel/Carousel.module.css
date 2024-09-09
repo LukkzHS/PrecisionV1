@@ -1,0 +1,19 @@
+.carouselContainer {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  
+
+  @media screen and (min-width:601px) and (max-width:1000px) {
+    .carouselContainer{
+      padding: 50px;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .carouselContainer{
+      padding: 0px;
+      margin-top: 40px;
+    }
+  }
