@@ -64,7 +64,7 @@ p {
 }
 
 /* Ajustes para telas menores (mobile e tablets) */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .conteudo {
     flex-direction: column;
     width: 100%;

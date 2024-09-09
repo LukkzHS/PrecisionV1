@@ -1,9 +1,7 @@
 .footer {
-    height: 300px;
     background-color: black;
     width: 100%;
     color: white;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,6 +36,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+    margin-top: 20px;
     width: 1000px;
 }
 
@@ -48,12 +47,30 @@
 }
 
 .copyrights {
-    margin-top: 10px;
+    margin: 10px;
+    display: flex;
+    align-items:end;
+    justify-content: end;
+}
+.copyrights p {
+    color: white;
+    font-size: small;
 }
 
 
 @media(max-width: 1200px) {
+    .footer {
+    
+    }
     .bottom {
         width: 90%;
+    }
+    .resources {
+        width: 80%;
+        
+    }
+    .socials {
+        width: 50%;
+        justify-content: space-around;
     }
 }
