@@ -8,7 +8,7 @@ export default function Secao_Quem_Somos() {
     return (
         <div className="quem-somos-section">
             <TituloSubtitulo titulo="Quem somos"
-                subtitulo="Conheça um pouco de nossa história"
+                subtitulo="Conheça um pouco da nossa história."
             />
             <Quem_Somos />
         </div>

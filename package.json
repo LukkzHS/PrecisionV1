@@ -13,10 +13,14 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@storybook/react": "^8.2.9",
+    "emailjs-com": "^3.2.0",
     "precision": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-slick": "^0.30.2"
+    "react-slick": "^0.30.2",
+    "react-floating-whatsapp": "^5.0.8",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

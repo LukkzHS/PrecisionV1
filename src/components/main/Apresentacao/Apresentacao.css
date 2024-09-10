@@ -129,7 +129,7 @@ body {
 
 /* Media Queries para telas maiores */
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .main-section {
     gap: 48px;
     padding: 40px;
