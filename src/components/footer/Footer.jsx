@@ -7,14 +7,14 @@ function Footer() {
                 <div>
                     <h3>Conheça-nos</h3>
                     <ul>
-                        <li><a href="#">Sobre o precision</a></li>
-                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#quemSomos">Sobre nós</a></li>
+                        <li><a href="#apresentacao">Produtos</a></li>
                         <li><a href="#">Termos de uso</a></li>
                         <li><a href="#">Política de Privacidade</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Contatos</h3>
+                    <h3 id='contatos'>Contatos</h3>
                     <ul>
                         <li>(34) 99732-6158</li>
                         <li>(34) 99732-6158</li>
