@@ -6,7 +6,7 @@ function SectionFeedback(){
 
     return(
         <div className={css.feedback}>
-                <TituloSubtitulo titulo="Oque nossos clientes estão dizendo" subtitulo="Confira o que nossos clientes estão dizendo sobre o novo dosador de adubo Precision."/>
+                <TituloSubtitulo titulo="Depoimentos de nossos clientes" subtitulo="Confira o que nossos clientes estão dizendo sobre o novo dosador de adubo Precision."/>
                 <ContentFeedback className={css.contentFeedback}/>
         </div>
     )
