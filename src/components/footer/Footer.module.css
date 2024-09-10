@@ -15,17 +15,34 @@
     margin-top: 30px;
     width: 500px;
 }
+.resourcesMobile {
+    width: 90%;
+}
+.resourcesMobile details {
+    margin: 10px;
+    width: 100%;
+}
+  .resourcesMobile details summary {
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
 
-.resources ul {
+.resources ul, .resourcesMobile ul {
     list-style: none;
     margin-top: 30px;
+}
+.resourcesMobile ul{
+    margin-top: 5px;
 }
 
 .resources li {
     margin: 10px 0px;
 }
 
-.resources a {
+.resources a, .resourcesMobile a {
     text-decoration: none;
     color: white;
 }
@@ -56,18 +73,21 @@
     color: white;
     font-size: small;
 }
-
+.resourcesMobile {
+    display: none;
+}
 
 @media(max-width: 1200px) {
-    .footer {
-    
-    }
     .bottom {
         width: 90%;
     }
     .resources {
-        width: 80%;
+        display: none;
         
+    }
+    .resourcesMobile {
+        display: block;
+        margin: auto;
     }
     .socials {
         width: 50%;
