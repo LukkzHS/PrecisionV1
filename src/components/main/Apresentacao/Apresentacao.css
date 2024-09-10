@@ -28,13 +28,13 @@ body {
 }
 
 .section-content h2 {
-  font-size: 24px; 
+  margin-top: 40px;
+  font-size: 32px; 
 }
 
-.section-content p {
-  font-size: 16px; 
+.section-content p:nth-of-type(1) {
+  font-size: 20px; 
 }
-
 
 .section-title {
   color: rgba(0, 113, 51, 1);
@@ -45,6 +45,7 @@ body {
   text-align: center;
 }
 
+
 .product-description {
   display: flex;
   flex-direction: column;
@@ -52,6 +53,8 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+
+
 
 .description-text {
   color: rgba(0, 0, 0, 1);

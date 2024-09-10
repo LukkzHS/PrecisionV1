@@ -7,7 +7,7 @@ const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null); // Estado para acompanhar a pergunta ativa
 
   useEffect(() => {
-    fetch('faqData.json') // Nome correto do arquivo JSON
+    fetch('PrecisionV1/faqData.json') // Nome correto do arquivo JSON
       .then((response) => response.json())
       .then((data) => setFaqData(data)) // Acessando diretamente o array
       .catch((error) => console.error('Erro ao carregar o JSON:', error));
