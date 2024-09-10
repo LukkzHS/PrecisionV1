@@ -1,0 +1,16 @@
+.slick-prev::before,
+.slick-next::before {
+    color: green;  
+    font-size: 24px; 
+}
+
+
+.slick-dots li button:before {
+    font-size: 16px; 
+    color: green; 
+}
+
+.slick-dots li.slick-active button:before {
+    font-size: 18px; 
+    color: darkgreen; 
+}

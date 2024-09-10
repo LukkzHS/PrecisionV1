@@ -4,6 +4,7 @@ import Review from '../Review/Review';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import css from './Carousel.module.css'; 
+import './Carousel.css';
 
 function Carousel({ reviews }) {
   const settings = {
