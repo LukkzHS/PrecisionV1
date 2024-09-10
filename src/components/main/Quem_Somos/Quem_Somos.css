@@ -26,7 +26,6 @@ body {
   flex-direction: row;
   align-items: center;
   width: 1200px;
-  /* Mantém a largura fixa para desktop */
   gap: 20px;
 }
 
@@ -34,13 +33,11 @@ body {
   flex: 1;
   color: rgba(0, 0, 0, 1);
   font-size: 21px;
-  /* line-height: 120%; */
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   height: 350px;
   text-align: left;
-  /* Mantém alinhamento à esquerda para desktop */
-  margin-bottom: 100px;
+  /* margin-bottom:px; */
 }
 
 
