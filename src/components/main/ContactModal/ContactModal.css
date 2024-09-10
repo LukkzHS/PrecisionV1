@@ -19,9 +19,70 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.7); /* Branco semi-transparente para sobrepor a imagem */
+  background-color: rgba(255, 255, 255, 0.7);
   z-index: 1;
   border-radius: 10px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  z-index: 2;
+  position: relative;
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column; /* Organiza verticalmente para dispositivos móveis */
+  }
+
+  .product-info, .contact-form-container {
+    width: 100%; /* Elementos ocupam 100% da largura */
+  }
+
+  .product-image {
+    max-width: 150px; /* Diminui o tamanho da imagem em dispositivos móveis */
+    margin-bottom: 1rem; /* Espaço entre a imagem e o formulário */
+  }
+}
+
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-image {
+  width: 70%;
+  max-width: 300px;
+  border-radius: 10px;
+  animation: heartbeat 3s infinite ease-in-out; /* Animação contínua */
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1); /* Tamanho normal */
+  }
+  30% {
+    transform: scale(1.05); /* Expande um pouco */
+  }
+  60% {
+    transform: scale(0.95); /* Encolhe um pouco */
+  }
+}
+
+.product-description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.contact-form-container {
+  flex: 1;
 }
 
 .contact-header,
@@ -38,29 +99,11 @@
   text-align: center;
 }
 
-
-.contact-header {
-  background-size: cover;
-  background-position: center;
-  padding: 2rem;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.contact-title {
-  color: rgba(0, 113, 51); /* Ajuste para garantir legibilidade sobre o fundo */
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-
 .contact-form-group {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  width: 100%; /* Garantir que os elementos dentro do grupo ocupem 100% da largura */
+  width: 100%;
 }
 
 .contact-form-label {
@@ -75,18 +118,17 @@
   padding: 0.5rem;
   border: 1px solid #dddddd;
   margin-bottom: 0.75rem;
-  width: 100%; /* Garantir que os inputs ocupem 100% da largura disponível */
-  box-sizing: border-box; /* Garantir que o padding não afete a largura */
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-form-control-half {
   flex: 1;
-  min-width: calc(50% - 0.75rem); /* Ajuste para garantir que os elementos ocupem metade da largura com o gap */
+  min-width: calc(50% - 0.75rem);
 }
 
 .contact-form-control-full {
-  width: 100%; /* Manter largura total */
-  
+  width: 100%;
 }
 
 .contact-btn-primary {
