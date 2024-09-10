@@ -7,6 +7,7 @@ import Secao_Quem_Somos from "./Quem_Somos/Secao_Quem_Somos.jsx";
 import FAQ from './Faq/Faq';
 import ContactModal from './ContactModal/ContactModal';
 import './Main.module.css';
+import Whatsapp from "./Whatsapp/Whatsapp.jsx";
 
 
 function Main() {
@@ -19,6 +20,7 @@ function Main() {
         <Secao_Quem_Somos/>
         <FAQ/>
         <ContactModal/>
+        <Whatsapp/>
         </main>
     );
 }
