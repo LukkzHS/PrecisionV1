@@ -24,6 +24,8 @@
   border-radius: 10px;
 }
 
+
+
 .contact-content {
   display: flex;
   justify-content: space-between;
@@ -77,6 +79,7 @@
 .product-description {
   margin-top: 1rem;
   font-size: 1rem;
+  font-weight: bold;
   color: #333;
   text-align: center;
 }
@@ -93,7 +96,7 @@
 
 .contact-title {
   color: rgba(0, 113, 51);
-  font-size: 1.8rem;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 1rem;
   text-align: center;
@@ -136,7 +139,7 @@
   border: none;
   color: white;
   padding: 0.5rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 28px;
   cursor: pointer;
   text-align: center;
   display: block;

@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.faq-section h2 {
+  font-size: 38px;
+}
+
 .faq-title {
   font-size: 2rem;
   color: #2e7d32;

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
   margin: 0;
@@ -15,9 +14,12 @@ body {
   align-items: center;
   gap: 30px;
   height: 900px;
-  /* Mantém a altura fixa para desktop */
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 1);
+}
+
+.quem-somos-section h2 {
+  font-size: 38px;
 }
 
 
@@ -37,7 +39,6 @@ body {
   font-weight: 600;
   height: 350px;
   text-align: left;
-  /* margin-bottom:px; */
 }
 
 
@@ -45,7 +46,6 @@ p {
   font-size: 21px;
   margin-bottom: 20px;
   color: black;
-  /* Adiciona espaçamento entre os parágrafos */
 }
 
 .imagem-container {

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 .titulo-subtitulo {
     position: relative;
     text-align: center;
@@ -8,7 +11,7 @@
   .titulo-padrao {
     color: rgba(0, 113, 51, 1);
     font-size: 48px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
     text-align: center;
     border-bottom: 2px solid black; 
