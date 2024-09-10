@@ -71,6 +71,7 @@ p {
 
   .quem-somos-section h2 {
     font-size: 32px;
+    margin-top: 270px;
   }
 
   .quem-somos-section p {
@@ -87,8 +88,8 @@ p {
   .imagem-precision {
     width: 100%;
     max-width: 350px;
-    height: auto;
-    margin-bottom: 200px;
+    height: 200px;
+    margin-bottom: 250px;
   }
 
   .conteudo p {
