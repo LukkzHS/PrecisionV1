@@ -52,7 +52,7 @@ const ContactModal = () => {
     <section className="contact-section">
       <div className="contact-content">
         <div className="product-info">
-          <img src="PrecisionV1/produto.png" alt="Produto" className="product-image" />
+          <img src="produto.png" alt="Produto" className="product-image" />
           <p className="product-description">
          O Precision garante adubação exata e uniforme, sem desperdícios. Compatível com diversas plantadeiras e fácil de instalar, ele oferece mais segurança e rentabilidade para sua lavoura. Entre em contato para saber mais!
           </p>
