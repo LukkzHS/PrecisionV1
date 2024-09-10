@@ -9,7 +9,7 @@
     color: white;
     font-family: Roboto,sans-serif;
     line-height: 15px;
-    height: 900px;
+    height: 700px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -24,6 +24,10 @@
     align-items: center;
 
 }
+.apresentacaoBox > div {
+    margin-top: 130px;
+
+}
 .apresentacaoBox div div {
     width: 90%;
 }
@@ -35,14 +39,17 @@
     text-align: center;
     font-size: 30px;
 }
+.apresentacaoBox h3 {
+    margin: 3px 0px;
+}
 
 .apresentacaoBox span {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
 .productImage1 {
-    width: 90%;
-    height: 135px;
+    width: 80%;
+    height: 180px;
     background-size: cover;
     background-position: 50% 50%;
     margin: 20px;
@@ -71,7 +78,10 @@
         color: white;
         font-family: Roboto,sans-serif;
         line-height: 15px;
-        height: 900px;
+        height: 800px;
+    }
+    .apresentacaoBox h3 {
+        margin: 3px 0px;
     }
     
     .apresentacaoBox div {
@@ -94,8 +104,8 @@
     }
     
     .productImage1, .productImage2 {
-        width: 90%;
-        height: 150px;
+        width: 70% !important;
+        height: 190px !important;
         background-size: cover;
         background-position: 50% 50%;
     }
