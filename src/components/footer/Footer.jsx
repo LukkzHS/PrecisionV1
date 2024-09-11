@@ -5,6 +5,7 @@ function Footer() {
         <div className={styles.footer}>
             <div className={styles.resources}>
                 <div>
+                    <div>
                     <h3>Conheça-nos</h3>
                     <ul>
                         <li><a href="#quemSomos">Sobre nós</a></li>
@@ -13,14 +14,16 @@ function Footer() {
                         <li><a href="#">Política de Privacidade</a></li>
                     </ul>
                 </div>
+                </div>
                 <div>
+                    <div>
                     <h3 id='contatos'>Contatos</h3>
                     <ul>
-                        <li>(34) 99732-6158</li>
                         <li>(34) 99732-6158</li>
                         <li>327 Rua Coronel Branco, Uberlândia MG</li>
                         <li><a href="https://maps.app.goo.gl/zpv7S8Ty8jbhc4cw6" target='_blank'>Ver no mapa ↗</a></li>
                     </ul>
+                </div>
                 </div>
             </div>
             <div className={styles.resourcesMobile}>
@@ -39,7 +42,6 @@ function Footer() {
                     <details id='contatos'>
                         <summary>Contatos</summary>
                         <ul>
-                            <li>(34) 99732-6158</li>
                             <li>(34) 99732-6158</li>
                             <li>327 Rua Coronel Branco, Uberlândia MG</li>
                             <li><a href="https://maps.app.goo.gl/zpv7S8Ty8jbhc4cw6" target='_blank'>Ver no mapa ↗</a></li>
