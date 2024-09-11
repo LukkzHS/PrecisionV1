@@ -10,17 +10,27 @@
 .resources {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto;
     margin-top: 30px;
     width: 500px;
+}
+.resources div {
+    width: 50%;
+}
+.resources div div {
+    width: 80%;
+    margin: auto;
 }
 .resourcesMobile {
     width: 90%;
 }
 .resourcesMobile details {
-    margin: 10px;
-    width: 100%;
+    
+    
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
 }
   .resourcesMobile details summary {
     list-style: none;
@@ -28,6 +38,12 @@
     border-radius: 5px;
     padding: 5px;
     text-align: center;
+}
+.resources ul {
+    list-style: none;
+    width: 80%;
+    margin-top: 20px !important;
+    text-align: left;
 }
 
 .resources ul, .resourcesMobile ul {
@@ -38,7 +54,7 @@
     margin-top: 5px;
 }
 
-.resources li {
+.resources li, .resourcesMobile li {
     margin: 10px 0px;
 }
 
