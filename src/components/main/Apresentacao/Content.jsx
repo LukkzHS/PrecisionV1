@@ -1,5 +1,5 @@
 export default function Content() {
-  const whatsappNumber = "+5511999999999";
+  const whatsappNumber = "+5534999615745";
   const message = encodeURIComponent("Gostaria de saber mais sobre o Dosador de Adubo Precision");
 
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
